@@ -1,172 +1,545 @@
 <!DOCTYPE html>
-<html>
-<title>zulkernine</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-</style>
-<body class="w3-theme">
+<html lang="en">
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:3000px;">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Mohiuddin Mondal" />
+    <meta name="username" content="zulkernine" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <title>Mohiuddin Mondal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+</head>
 
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
-    <!-- Left Column -->
-    <div class="w3-third">
-    
-      <div class="w3-text-light-green w3-theme-l1 w3-black w3-hover-text-light-green w3-card-4">
-        <div class="w3-display-container">
-          <img src="mybnwpic2.jpg" style="width:100%" alt="Avatar">
-          <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2>Mohiuddin Mondal</h2>
-          </div>
-        </div>
-        <div class="w3-container">
-            <br>
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Student</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>285A, NH-34<br>Bhakuri, Berhampore-742165<br> Murshidabad, West Bengal<br><b>India</b></p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>zulqarnain.mocker789@gmail.com</p>
-          <!-- <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1224435534</p> -->
-          <hr>
+<body class="bg-gray-100">
+    <section class="py-10 md:py-16">
+        <div class="container max-w-screen-xl mx-auto px-4">
+            <nav class="flex items-center justify-between mb-40">
+                <img src="assets/android-chrome-192x192.png" alt="Logo" class="rounded" width="52" />
 
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Extra Skills</b></p>
-          <p>Photography</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">
-              <div class="w3-center w3-text-white">60%</div>
+                <a href="https://drive.google.com/file/d/14qh-X_dc8m446XRxgThl1g7iyt7KX3ql/view?usp=sharing"
+                    class="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500">
+                    Get my CV
+                </a>
+            </nav>
+
+            <div class="text-center">
+                <div class="flex justify-center mb-16">
+                    <img src="https://lh3.googleusercontent.com/i5LA9ZITuzxropz7KaR7ItBUGeIkWsH_WrRkcYZbH9AtsB-_SlIDGCDf3EqIfuXxUxT7EvTmEHLZCq-btSMnRb0AxT9H0BOEEcUN-JN9lq7e82_8IWdRAesJBm6h2yM03IWkr96MlA=w2400"
+                        alt="Mohiuddin Mondal Image" width="300" class="max-w-full h-auto rounded-full shadow-lg" />
+                </div>
+
+                <h6 class="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-8">
+                    Mohiuddin Mondal
+                </h6>
+
+                <h1 class="font-normal text-gray-900 text-4xl md:text-7xl leading-none mb-8">
+                    Backend Developer
+                </h1>
+
+                <p class="font-normal text-gray-600 text-md md:text-xl mb-16">
+                    Software engineer with past experience in backend
+                    application development using <b>Spring boot</b> and
+                    mongodb. Also worked with <b>Flutter</b> and
+                    <b>ReactJS</b> for quite some time. Learning and
+                    exploring new technologies.
+                </p>
+
+                <a data-tooltip-target="tooltip-dark" href="https://www.linkedin.com/in/mohiuddin-mondal-72593a189/"
+                    target="_blank"
+                    class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">
+                    Hire me
+                </a>
+                <div id="tooltip-dark" role="tooltip"
+                    class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                    Please connect on Linkedin and message.<br />
+                    Click to visit my Linkedin profile
+                    <div class="tooltip-arrow" data-popper-arrow></div>
+                </div>
             </div>
-          </div>
-          <p>Gimp 2.0</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:45%">45%</div>
-          </div>
-          <br>
-
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:70%"></div>
-          </div>
-          <p>Bengali</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-          </div>
-          <p>Hindi</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:60%"></div>
-          </div>
-          <br>
         </div>
-      </div><br>
+    </section>
 
-    <!-- End Left Column -->
-    </div>
+    <section class="py-10 md:py-16">
+        <div class="container max-w-screen-xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-gray-50 px-8 py-10 rounded-md col-start-auto col-end-auto">
+                    <div class="w-20 py-6 flex justify-center bg-gray-100 rounded-md mb-4">
+                        <i data-feather="activity"></i>
+                    </div>
 
-    <!-- Right Column -->
-    <div class="w3-twothird">
-    
-      <div class="w3-container w3-card w3-theme-l1 w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>GirlScript Summer of Code (GSSOC)</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><span class="w3-tag w3-teal w3-round">1st March 2020 - 31st May 2020</span></h6>
-          <ul>
-              <li><p>3 months of open-source contribution</p></li>
-              <li><p>Language Used: Python</p></li>
-              <li><p>Library: Pyppeteer</p></li>
-          </ul>
-          <hr>
+                    <h4 class="font-medium text-gray-700 text-lg mb-4">
+                        Internship experience
+                    </h4>
+
+                    <p class="font-normal text-gray-500 text-md">
+                        I've worked on app development with <b>Flutter</b>,
+                        <br />
+                        and Backend development using <b>Spring boot</b>.
+                    </p>
+                </div>
+
+                <div class="bg-gray-50 px-8 py-10 rounded-md">
+                    <div class="w-20 py-6 flex justify-center bg-gray-100 rounded-md mb-4">
+                        <i data-feather="codesandbox"></i>
+                    </div>
+
+                    <h4 class="font-medium text-gray-700 text-lg mb-4">
+                        Professional Experience
+                    </h4>
+
+                    <p class="font-normal text-gray-500 text-md">
+                        Not graduated yet :)
+                    </p>
+                </div>
+
+                <div class="bg-gray-50 px-8 py-10 rounded-md col-start-auto col-end-auto">
+                    <div class="w-20 py-6 flex justify-center bg-gray-100 rounded-md mb-4">
+                        <i data-feather="coffee"></i>
+                    </div>
+
+                    <h4 class="font-medium text-gray-700 text-lg mb-4">
+                        Projects and Open Source
+                    </h4>
+
+                    <p class="font-normal text-gray-500 text-md">
+                        Created full website (ecommerce) for Hackathon ||
+                        Participated in GSSOC 2020
+                    </p>
+                </div>
+            </div>
         </div>
-        <!--    <div class="w3-container">
-          <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
-          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-          <hr>
+    </section>
+
+    <section class="py-10 md:py-16">
+        <div class="container max-w-screen-xl mx-auto px-4">
+            <div class="flex flex-col lg:flex-row justify-between">
+                <div class="mb-10 lg:mb-0">
+                    <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">
+                        Portfolio
+                    </h1>
+
+                    <p class="font-normal text-gray-500 text-xs md:text-base">
+                        I have brought here my best team projects.
+                    </p>
+                </div>
+
+                <div class="space-y-24">
+                    <div class="flex space-x-6">
+                        <h1 class="font-normal text-gray-700 text-3xl md:text-4xl">
+                            01
+                        </h1>
+
+                        <span class="w-28 h-0.5 bg-gray-300 mt-5"></span>
+
+                        <div>
+                            <a href="https://github.com/zulkernine/ShopSafe/tree/dummy" target="_blank">
+                                <h1 class="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
+                                    eQueue
+                                </h1>
+
+                                <p class="font-normal text-gray-500 text-sm md:text-base">
+                                    Book your slot for recieving goods
+                                    instead of waiting in a long queue
+                                    maintaning <br />
+                                    social distance! system is implemented
+                                    using
+                                    <b>ReactJS</b>,<i>NodeJs,MongoDb</i>. It
+                                    provides<br />
+                                    admin dashboard for seller and a feed
+                                    showing nearby shops for customers. (I
+                                    <br />
+                                    implemented the whole website and
+                                    backend was developed by other team
+                                    members).
+                                    <br />More details
+                                    <a href="https://github.com/zulkernine/ShopSafe/tree/dummy" target="_blank"
+                                        class="font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                                        <i>here</i>.
+                                    </a>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="flex space-x-6">
+                        <h1 class="font-normal text-gray-700 text-3xl md:text-4xl">
+                            02
+                        </h1>
+
+                        <span class="w-28 h-0.5 bg-gray-300 mt-5"></span>
+
+                        <div>
+                            <a href="https://github.com/zulkernine/Road_Anomalies_Detection" target="_blank">
+                                <h1 class="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
+                                    Pothole Alert
+                                </h1>
+
+                                <p class="font-normal text-gray-500 text-sm md:text-base">
+                                    A mobile app to show all the potholes
+                                    found in a road(based on user's current
+                                    location).<br />
+                                    User will upload potholes pic from road,
+                                    backend will process it and if it's
+                                    valid, then put <br />
+                                    a custom marker on that location on
+                                    google map so that other users can see
+                                    it.
+                                    <br />
+                                    Tech used:
+                                    <b>Flutter</b>,<b>Firestore</b>,GoogleMap, Backend to
+                                    process image and ML model <br />
+                                    was developed by other team member.
+                                    <a href="https://github.com/zulkernine/Road_Anomalies_Detection" target="_blank"
+                                        class="font-medium text-blue-600 dark:text-blue-500 hover:underline">More
+                                        details</a>
+                                    .
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="flex space-x-6">
+                        <h1 class="font-normal text-gray-700 text-3xl md:text-4xl">
+                            03
+                        </h1>
+
+                        <span class="w-28 h-0.5 bg-gray-300 mt-5"></span>
+
+                        <div>
+                            <a href="https://github.com/skshahnawaz/MockStockv3" target="_blank">
+                                <h1 class="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
+                                    MockStock (ongoing)
+                                </h1>
+
+                                <p class="font-normal text-gray-500 text-sm md:text-base">
+                                    A virtual stock exchange where students
+                                    gets some virtual money/stocks on
+                                    login.<br />
+                                    Then they can buy/sell as Market/Limit
+                                    order at realtime. Orders are matched
+                                    <br />
+                                    following Pro-rata algorithm. Tech used:
+                                    <b>Node.js, Kafka, Mongodb, Redis,<br />
+                                        Tailwindcss</b>.
+                                    <a href="https://github.com/skshahnawaz/MockStockv3" target="_blank"
+                                        class="font-medium text-blue-600 dark:text-blue-500 hover:underline">More
+                                        details</a>
+                                    .
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
-        </div>-->
-      </div> 
+    </section>
 
-      <div class="w3-container w3-card w3-theme-l1 w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-university fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Jadavpur University</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019 - 2023</h6>
-          <p>Currently Pursuiing Bachelor degree in Computer Science and Engineering</p>
-          <hr>
+    <section class="py-10 md:py-16">
+        <div class="container max-w-screen-xl mx-auto px-4">
+            <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">
+                Education
+            </h1>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-gray-50 px-8 py-10 rounded-md">
+                    <h4 class="font-medium text-gray-700 text-lg mb-4">
+                        Aug 2019 – Jul 2023
+                    </h4>
+
+                    <p class="font-normal text-gray-500 text-md mb-4">
+                        <b>Bachelor of Computer Science Engineering</b>
+                        <br />
+                        <a href="http://jaduniv.edu.in/" target="_blank"><i>Jadavpur University</i></a>
+                        | CGPA: <b>8.8 out of 10</b><br />
+                        Courses: Computer Programming, Data Structures and
+                        Algorithm, Database, Operating System, Networking
+                        etc.
+                    </p>
+                </div>
+
+                <div class="bg-gray-50 px-8 py-10 rounded-md">
+                    <h4 class="font-medium text-gray-700 text-lg mb-4">
+                        2011 – 2019
+                    </h4>
+
+                    <p class="font-normal text-gray-500 text-md mb-4">
+                        <b>Berhampore J.N.Academy</b> <br />
+                        Secondary Education: 88% (WBBSE)<br />
+                        Higher Secondary Education: 95% (WBCHSE)
+                    </p>
+                </div>
+            </div>
         </div>
-        <!-- <div class="w3-container">
-          <h5 class="w3-opacity"><b>London Business School</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
-          <p>Master Degree</p>
-          <hr>
+    </section>
+
+    <section class="py-10 md:py-16">
+        <div class="container max-w-screen-xl mx-auto px-4">
+            <div class="text-center">
+                <h1 class="font-normal text-gray-300 text-3xl md:text-6xl lg:text-7xl mb-20 md:mb-32 lg:mb-48">
+                    Please do not measure your skills in <br />
+                    percentages!
+                </h1>
+
+                <p class="font-medium text-gray-700 text-xs md:text-base">
+                    In my past experience, I used @Spring boot for backend
+                    projects and @ReactJS, @Flutter for <br />
+                    front-end projects.
+                </p>
+            </div>
         </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>School of Coding</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019 - 2023</h6>
-          <p>Bachelor Degree</p><br>
-        </div> -->
-      </div>
+    </section>
 
-      <div class="w3-container w3-card w3-theme-l1 w3-margin-bottom" >
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Core Skill</h2>
-        <div class="w3-container w3-theme-l2 w3-margin-bottom">    
-        <h5 class="w3-opacity"><b>Programming Languages</b></h5>
-        <ul>
-            <li><p>C/C++</p></li>
-            <li><p>Python</p></li>
-            <li><p>PHP</p></li>
-        </ul>
-        <hr>
+    <section class="py-10 md:py-16">
+        <div class="container max-w-screen-xl mx-auto px-4">
+            <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">
+                Experience
+            </h1>
+
+            <div>
+                <ol class="relative border-l border-gray-200 dark:border-gray-700">
+                    <li class="mb-10 ml-4">
+                        <div
+                            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                        </div>
+                        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">May 2022 -
+                            Present</time>
+                        <h3 class="text-lg font-semibold text-gray-500">
+                            Backend Developer Intern | FlipitMoney
+                        </h3>
+
+                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                            • Implement REST APIs using Spring with mongodb and follow design patterns.</p>
+
+                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                            • Implemented a library and cron job to fetch data from external server and process it
+                            for internal use.
+                        </p>
+
+                        </p>
+                    </li>
+                    <li class="mb-10 ml-4">
+                        <div
+                            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                        </div>
+                        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                            Sep 2021 -
+                            Mar 2022</time>
+                        <h3 class="text-lg font-semibold text-gray-500 ">
+                            Frontend Developer | FlipitMoney
+                        </h3>
+                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                            • Generic scrollable component with auto-fetch next page using paginated API.
+                        </p>
+                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                            • Social feed(post,comment,like etc) and Quiz UI with reusable components implemented.
+                        </p>
+                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                            • Integrated smallcase sdk with flutter app to enable in-app stock transaction.
+                        </p>
+                    </li>
+                    <li class="ml-4">
+                        <div
+                            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                        </div>
+                        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                            March 2020 - May 2020
+                        </time>
+                        <h3 class="text-lg font-semibold text-gray-500">
+                            Open Source Contrinbution | GSSoC
+                        </h3>
+                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                            Added 3 features to the application ( broadcast message, change target after conversation,
+                            send file/document ).
+                        </p>
+                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                            Technology used: Python, puppeteer library.
+                            <a class="text-base font-normal  text-gray-500 dark:text-gray-400 hover:underline"
+                                target="_blank"
+                                href="https://github.com/whatsplay/whatsapp-play/issues?q=is%3Aissue+is%3Aclosed+assignee%3Azulkernine">
+                                <i> More details here.</i>
+                            </a>
+                        </p>
+                    </li>
+                </ol>
+            </div>
+
+
         </div>
-        <div class="w3-container w3-theme-l2 w3-margin-bottom">
-        <h5 class="w3-opacity"><b>Web Development</b></h5>
-        <ul>
-            <li><p>HTML5,CSS</p></li>
-        </ul>
-        <hr>
+    </section>
+
+    <section class="py-10 md:py-16">
+        <div class="container max-w-screen-xl mx-auto px-4">
+            <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">
+                Skills
+            </h1>
+
+            <div class="overflow-x-auto relative">
+                <table class="w-full text-sm text-left text-gray-500 ">
+
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="py-4 px-6 text-xl">
+                                Spring boot
+                            </th>
+                            <th scope="row" class="py-4 px-6 text-xl">
+                                MongoDb/SQL
+                            </th>
+                            <th scope="row" class="py-4 px-6 text-xl">
+                                Kafka
+                            </th>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="py-4 px-6 text-xl">
+                                Flutter
+                            </th>
+                            <th scope="row" class="py-4 px-6 text-xl">
+                                ReactJs
+                            </th>
+                            <th scope="row" class="py-4 px-6 text-xl">
+                                NodeJs
+                            </th>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="py-4 px-6 text-xl">
+                                C++
+                            </th>
+                            <th scope="row" class="py-4 px-6 text-xl">
+                                Java
+                            </th>
+                            <th scope="row" class="py-4 px-6 text-xl">
+                                Dart
+                            </th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
         </div>
-      </div>
+    </section>
 
-      <div class="w3-container w3-card w3-theme-l1 w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-users fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Connect With Me</h2>
-        <ul>
-            <li><p><h3><i class="fa fa-linkedin w3-xxlarge w3-hover-opacity"></i><a href="https://www.linkedin.com/in/mohiuddin-mondal-72593a189" target="blank">  Linkedin</h3></a></p></li>
-            <li><p><h3><i class="fa fa-github w3-xxlarge w3-hover-opacity"></i><a href="https://github.com/zulkernine" target="blank">  My Projects</h3></a></p></li>
-        </ul>
+    <section class="py-10 md:py-16">
+        <div class="container max-w-screen-xl mx-auto px-4">
+            <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">
+                Awards
+            </h1>
 
-      </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-gray-50 px-8 py-10 rounded-md ">
+                    <h6 class="font-semibold text-gray-500 text-md mb-5">
+                        JBNSTS Junior Scholarship
+                        <span class="font-medium text-gray-400 text-sm"> 2017</span>
+                    </h6>
+                    <p class="font-normal text-gray-500 text-md mb-4">
+                        A prestigous scholarship for Bengali science students from West Bengal,India.
+                    </p>
+                </div>
 
-    <!-- End Right Column -->
-    </div>
-    
-  <!-- End Grid -->
-  </div>
-  
-  <!-- End Page Container -->
-</div>
+                <div class="bg-gray-50 px-8 py-10 rounded-md ">
+                    <h6 class="font-semibold text-gray-500 text-md mb-5">
+                        Joint Entrance Examination Main
+                        <span class="font-medium text-gray-400 text-sm"> 2019</span>
+                    </h6>
+                    <p class="font-normal text-gray-500 text-md mb-4">
+                        Ranked <b>2611</b> among 15 lakh students over all India.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- <footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer> -->
+    <section class="py-10 md:py-16">
+        <div class="container max-w-screen-xl mx-auto px-4">
+            <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">
+                Languages
+            </h1>
 
+            <div class="overflow-x-auto relative">
+                <table class="w-full text-sm text-left text-gray-500 ">
+
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="py-4 px-6 text-xl">
+                                Bengali (Native)
+                            </th>
+                            <th scope="row" class="py-4 px-6 text-xl">
+                                Hindi (Fluent)
+                            </th>
+                            <th scope="row" class="py-4 px-6 text-xl">
+                                English (Fluent)
+                            </th>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="py-10 md:py-16 mb-20 md:mb-40 lg::mb-52">
+        <div class="container max-w-screen-xl mx-auto px-4">
+            <div class="text-center">
+                <h1 class="font-medium text-gray-700 text-4xl md:text-5xl mb-5">
+                    Hobbies
+                </h1>
+
+                <p class="font-normal text-gray-400 text-md md:text-lg mb-20">
+                    I love to click nature 😋 and wander around in vast greenary 😌 <br>
+                    Also watch Anime 😉 <br>
+                    <a href="/gallery" target="_blank"
+                        class="font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                        Visit my gallery 📸 🎥 </a>
+
+                </p>
+
+                <div class="flex items-center justify-center space-x-8">
+                    <a href="https://github.com/zulkernine" target="_blank"
+                        class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                        <i data-feather="github"
+                            class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/zulqarnain.mocker.1/" target="_blank"
+                        class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                        <i data-feather="facebook"
+                            class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/mohiuddin-mondal-72593a189/" target="_blank"
+                        class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                        <i data-feather="linkedin"
+                            class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
+                    </a>
+
+                    <a href="mailto:zulqarnain.mocker789@gmail.com" target="_blank"
+                        class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                        <i data-feather="at-sign"
+                            class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/mohiuddin_mondal789/" target="_blank"
+                        class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                        <i data-feather="instagram"
+                            class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js"
+        integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+    <script type="text/javascript">
+        feather.replace();
+    </script>
 </body>
+
 </html>
